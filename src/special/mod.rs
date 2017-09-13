@@ -15,10 +15,16 @@ mod inner {
     }
 }
 
+/// Self-referential iterator adaptor builder
+///
+/// See `feedback` for more information.
 pub struct Feedback<T> {
     t: Cell<Option<T>>,
 }
 
+/// Self-referential iterator adaptor
+///
+/// See `feedback` for more information.
 pub struct FeedbackIter<'a, I, T: 'a> {
     iter: I,
     inner: &'a Cell<Option<T>>,

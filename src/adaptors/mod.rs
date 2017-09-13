@@ -2,14 +2,14 @@
 
 use std::iter::Fuse;
 
-pub struct ClampToExactSize<I, F> {
+pub struct ClampToExactLength<I, F> {
     pub(crate) iter: Fuse<I>,
     pub(crate) filler: F,
     pub(crate) index: usize,
     pub(crate) size: usize,
 }
 
-impl<I, F> Iterator for ClampToExactSize<I, F>
+impl<I, F> Iterator for ClampToExactLength<I, F>
     where I: Iterator,
           F: FnMut(usize) -> I::Item,
 {
