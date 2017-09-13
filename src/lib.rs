@@ -16,6 +16,7 @@ extern crate either;
 extern crate itertools;
 
 pub mod adaptors;
+pub mod special;
 
 use adaptors::{
     ClampToExactSize,
