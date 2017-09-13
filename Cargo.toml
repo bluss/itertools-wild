@@ -1,7 +1,6 @@
 [package]
 name = "itertools-wild"
-version = "0.0.0"
-publish = false
+version = "0.1.0"
 
 license = "MIT/Apache-2.0"
 repository = "https://github.com/bluss/itertools-wild"
