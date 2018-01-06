@@ -41,7 +41,13 @@ How to contribute:
 Recent Changes
 --------------
 
-- Not released yet
+- 0.1.1
+
+  - Update authors: .feedback() is originally by @jameysharp
+
+- 0.1.0
+
+  - Initial release
 
 
 License

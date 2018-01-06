@@ -1,11 +1,11 @@
 [package]
 name = "itertools-wild"
-version = "0.1.0"
+version = "0.1.1"
 
 license = "MIT/Apache-2.0"
 repository = "https://github.com/bluss/itertools-wild"
 documentation = "https://docs.rs/itertools-wild/"
-authors = ["bluss"]
+authors = ["bluss", "jameysharp"]
 
 description = "Extra wild iterator adaptors, wild iterator methods, wild free functions, and wild macros."
 
